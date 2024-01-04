@@ -246,6 +246,9 @@ cc_library {
             system_shared_libs: ["libc_musl"],
         },
     },
+    apex_available: [
+        "com.android.runtime",
+    ],
 }
 
 //-----------------------------------------------------------------------
